@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentin Chaussegros Veille Technologique</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Votre CSS -->
+    <link rel="stylesheet" href="veille.css">
+</head>
+<body>
+    <!-- Section Accueil -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <img src="myphoto.jpg" alt="Valentin" class="profile-img">
+            <h1>Valentin Chaussegros</h1>
+            <p class="lead">Les cartes graphiques</p>
+        </div>
+    </section>
+
+    <!-- Section Veille Technologique -->
+    <section class="veille-section">
+        <div class="container">
+            <h2 class="section-title">Ma Veille Technologique</h2>
+
+
+            <!-- Tableau de veille -->
+            <div class="table-responsive veille-table">
+            
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Sujet</th>
+                            <th>Description</th>
+                            <th>Source</th>
+                            <th>Outil</th>
+                        </tr>
+                    </thead>
+                    <tbody id="veilleTableBody">
+                        <tr>
+                            <td>2025-03-11</td>
+                            <td>Nouvelle carte graphique RX 9070 XT</td>
+                            <td>Nouvelle RX 9070 XT prix de 599$, elle possède notamment Une Mémoire de 16 Go GDDR6, une fréquence de 2170MHz, une fréquence mémoire de 2518MHz, un GPU Navi 48 et un Bus de 256 bits.</td>
+                            <td><a href="https://www.cowcotland.com/news/98419/les-rx-9070-xt-s-affichent-enfin-a-599-dollars-aux-us.html" target="_blank">Source</a></td> 
+                            <td>Google</td>
+                        </tr>
+                         <tr>
+                            <td>2025-12-11</td>
+                            <td>Information sur les RTX 5000 Super de NVIDIA</td>
+                            <td>Concernant les RTX 5070 SUPER, RTX 5070 Ti SUPER et RTX 5080 SUPER : elles passeraient toutes au-delà de 16 Go de mémoire vidéo. Le cas le plus marquant serait la RTX 5070 Ti SUPER qui bondirait à 24 Go de GDDR7 (à prix inchangé estimé 749–799 $), avec près de 8 960 cœurs CUDA et de la GDDR7 à 28 Gb/s pour un gain jusqu’à 11 %.
+							En haut du panier, la RTX 5080 SUPER viserait 24 Go de GDDR7 à 32 Gb/s, avec 10 752 cœurs CUDA, un TGP autour de 415 W et jusqu’à 16 % de mieux. Plus accessible, la RTX 5070 SUPER tiendrait la tranche 549–599 $ avec 18 Go de GDDR7, 6 400 cœurs CUDA et 8–12 % de perf en plus.</td>
+                            <td><a href="https://www.cowcotland.com/news/98485/les-rtx-5000-super-de-nvidia-ne-seraient-finalement-pas-annulees.html" target="_blank">Source</a></td> 
+                            <td>Google</td>
+                        </tr>
+						 <tr>
+                            <td>2025-17-11</td>
+                            <td>ASUS propose des RTX 5060 EVO </td>
+                            <td>ASUS passe toutes les RTX 5060 à la gamme EVO !
+Les RTX 5060 Ti sont pourvues de 16 Go de VRAM, tandis que les RTX 5060 simples optent, logiquement, pour 8 Go de VRAM. Les cartes disposent de deux ventilateurs, de type axial, à double roulement à billes, tout en proposant des sorties vidéos HDMI 2.1b (x1) et DisplayPort 2.1b (x3). Les cartes ont un format contenu, avec des dimensions de 225 x 120 x 42 mm et un CPB très court, ce qui a pour effet de décaler vers l'avant l'unique connecteur 8-pin. 
+</td>
+                            <td><a href="https://www.cowcotland.com/news/98577/asus-propose-des-rtx-5060-dual-evo.html" target="_blank">Source</a></td> 
+                            <td>Google</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bouton Retour -->
+   
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript pour la veille -->
+    <script src="veille.js"></script>
+</body>
+</html>
