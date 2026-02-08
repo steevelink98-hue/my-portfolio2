@@ -4,86 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valentin Chaussegros | Portfolio</title>
-    <!-- Bootstrap 5 CSS -->
+
+    <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome pour les icônes -->
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- Mon CSS -->
+
+    <!-- CSS personnalisé -->
     <link rel="stylesheet" href="CompterenduC.css">
 </head>
 <body>
-    <!-- Section Accueil -->
-    <section class="hero-section text-center">
+
+    <!-- HEADER / HERO -->
+    <header class="hero-section text-center py-5">
         <div class="container">
-            <h1>Valentin Chaussegros</h1>
+            <h1 class="fw-bold">Valentin Chaussegros</h1>
             <p class="lead">Étudiant en informatique</p>
         </div>
-    </section>
+    </header>
 
-    <!-- Section Compte rendu -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title">Mes comptes rendus</h2>
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION COMPTES RENDUS -->
+        <section id="projects" class="section py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Mes comptes rendus</h2>
 
-            <!-- Boutons pour filtrer les parties -->
-            <div class="d-flex justify-content-center mb-4">
-               
-            </div>
+                <div class="row">
+                    <!-- TP 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card project-card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">B2TP1 – Prise de contrôle à distance</h5>
+                                <a href="B2 TP01 Prise de contrôle à distance.pdf"
+                                   target="_blank"
+                                   class="btn btn-primary mt-auto">
+                                   Voir le compte rendu
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-            
-            <div id="part1" class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">B2TP1 Prise de controle à distance</h5>
-                            <a href="B2 TP01 Prise de contrôle à distance.pdf" target="_blank" class="btn btn-primary">Voir le compte rendu</a>
+                    <!-- TP 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card project-card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">B2TP2 – Partitionnement de disques durs</h5>
+                                <a href="TP02 Partionnement de disques durs.pdf"
+                                   target="_blank"
+                                   class="btn btn-primary mt-auto">
+                                   Voir le compte rendu
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TP 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card project-card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">B2TP3 – Clonage</h5>
+                                <a href="TP03 B2 CLONAGE.pdf"
+                                   target="_blank"
+                                   class="btn btn-primary mt-auto">
+                                   Voir le compte rendu
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card project-card">
-                        
-                        <div class="card-body">
-                            <h5 class="card-title">B2TP2 Partitionement de disques durs</h5>
-                            <a href="TP02 Partionnement de disques durs.pdf" target="_blank" class="btn btn-primary">Voir le compte rendu</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-            <div class="col-md-4 mb-4">
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">B2TP3 Clonage</h5>
-                            <a href="TP03 B2 CLONAGE.pdf" target="_blank" class="btn btn-primary">Voir le compte rendu</a>
-                        </div>
-                    </div>
-                </div>
+        </section>
+    </main>
 
-            </div>
-        </div>
-
-
-
-
-
-                
-                </div>
-            </div>
-        </div>
-    </section>
- 
-    <!-- Bouton Retour -->
+    <!-- RETOUR -->
     <div class="text-center my-4">
-        <a href="index.html" class="btn-retour">← Retour</a>
+        <a href="index.html" class="btn btn-outline-secondary">← Retour</a>
     </div>
 
-    <!-- Bootstrap 5 JS -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Mon JavaScript -->
+
+    <!-- JS perso -->
     <script src="index.js"></script>
 </body>
 </html>
+
 
 
 
