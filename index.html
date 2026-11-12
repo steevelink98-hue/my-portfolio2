@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Valentin Chaussegros – Étudiant BTS SIO</title>
-<meta name="description" content="Portfolio de Valentin Chaussegros, étudiant en BTS SIO : TP, veille technologique, rapport de stage.">
+<title>Valentin Chaussegros – Étudiant BTS SIO option SISR</title>
+<meta name="description" content="Portfolio de Valentin Chaussegros, étudiant en BTS SIO option SISR : TP, veille technologique, rapport de stage.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -47,6 +47,11 @@ nav a.cta:hover{background:var(--brand-dark)}
 .hero p{max-width:52ch;color:#C5D6D2;margin:0 0 26px}
 .search{display:flex;gap:8px;max-width:520px}
 .search input{flex:1;min-width:0;padding:14px 16px;border-radius:10px;border:0;font:inherit;color:var(--ink)}
+.avail{display:inline-block;margin:0 0 22px;padding:8px 14px;border-radius:8px;background:rgba(242,169,0,.16);color:#FFD98A;font-weight:500}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.grp{padding:20px;background:var(--bg);border:1px solid var(--line);border-radius:12px}
+.grp h3{font-size:1.1rem;margin-bottom:6px}
+.grp p{margin:0;color:var(--muted)}
 .btn{display:inline-block;padding:13px 20px;border-radius:10px;border:0;background:var(--brand);color:#fff;font:600 1rem var(--body);text-decoration:none;cursor:pointer}
 .btn:hover{background:var(--brand-dark)}
 .hero .btn{background:#F2A900;color:#1B1400}
@@ -130,6 +135,7 @@ footer{background:var(--deep);color:#B5C9C4;padding:26px 0;font-size:.92rem}
       <a href="#veille">Veille</a>
       <a href="#stage">Stage</a>
       <a href="#parcours">Parcours</a>
+      <a href="#competences">Compétences</a>
       <a href="#apropos">À propos</a>
       <a href="#contact" class="cta">Contact</a>
     </nav>
@@ -141,8 +147,9 @@ footer{background:var(--deep);color:#B5C9C4;padding:26px 0;font-size:.92rem}
   <div class="wrap hero-grid">
     <div>
       <h1>Valentin Chaussegros</h1>
-      <p class="role">Étudiant en BTS SIO</p>
-      <p>Passionné par l’informatique, je cherche à mettre mes compétences en pratique. Retrouvez ici mes TP, ma veille technologique et mon rapport de stage.</p>
+      <p class="role">Étudiant en BTS SIO option SISR</p>
+      <p>Étudiant en deuxième année, je me forme aux systèmes, aux réseaux et à l’administration informatique. Retrouvez ici mes TP, ma veille technologique et mon rapport de stage.</p>
+      <div class="avail">Je recherche un stage de 5 à 6 semaines à partir du 4 janvier 2027.</div>
       <form class="search" id="heroSearch" role="search">
         <input type="search" id="heroQ" placeholder="Chercher un TP : B2, réseau, supervision…" aria-label="Chercher un TP">
         <button class="btn" type="submit">Chercher</button>
@@ -151,7 +158,7 @@ footer{background:var(--deep);color:#B5C9C4;padding:26px 0;font-size:.92rem}
         <a class="shortcut" href="#tp"><b>Mes TP</b><span id="tpCount">Comptes rendus</span></a>
         <a class="shortcut" href="#veille"><b>Veille</b><span>Technologique</span></a>
         <a class="shortcut" href="#stage"><b>Stage</b><span>Rapport complet</span></a>
-        <a class="shortcut" href="CV_2025-09-03_Valentin_Chaussegros.pdf" download="CV_Valentin_Chaussegros.pdf"><b>Mon CV</b><span>PDF</span></a>
+        <a class="shortcut" href="CV_2026-09-05_Valentin_Chaussegros.pdf" download="CV_Valentin_Chaussegros.pdf"><b>Mon CV</b><span>PDF</span></a>
       </div>
     </div>
     <div class="photo">
@@ -191,52 +198,90 @@ footer{background:var(--deep);color:#B5C9C4;padding:26px 0;font-size:.92rem}
 <section id="parcours">
   <div class="wrap">
     <h2>Parcours</h2>
-    <p class="lead">Ma formation et mon expérience en entreprise.</p>
+    <p class="lead">Ma formation et mes stages, du plus récent au plus ancien.</p>
     <div class="path">
       <div class="step">
-        <div class="when">2025 – 2027 (en cours)</div>
+        <div class="when">Mai – juillet 2026</div>
         <div>
-          <h3>BTS SIO</h3>
-          <p class="where">Lycée Dominique Villars, Gap</p>
-          <p style="margin:0;color:var(--muted)">Services informatiques aux organisations, avec une spécialisation en développement.</p>
-          <ul><li>Programmation Java et Python</li><li>Gestion de bases de données</li><li>Réseaux et cybersécurité</li></ul>
+          <h3>Stage au service informatique</h3>
+          <p class="where">Agricampus Hautes-Alpes, Les Émeyères</p>
+          <ul><li>Dépannage d’imprimantes, de casques audio et d’ordinateurs</li><li>Diagnostic et dépannage de matériel informatique</li><li>Installation et configuration de postes Windows</li><li>Création du dossier de site pour l’ensemble du campus</li></ul>
         </div>
       </div>
       <div class="step">
-        <div class="when">Mars – avril 2021</div>
+        <div class="when">Depuis septembre 2025</div>
         <div>
-          <h3>Stage en assistance informatique</h3>
-          <p class="where">Préfecture de Gap</p>
-          <p style="margin:0;color:var(--muted)">Dépannage informatique et installation d’ordinateurs pour les services de la préfecture.</p>
-          <ul><li>Maintenance des équipements</li><li>Installation et configuration de postes de travail</li><li>Assistance aux utilisateurs</li></ul>
+          <h3>BTS SIO option SISR, 2<sup>e</sup> année</h3>
+          <p class="where">Lycée Dominique Villard, Gap</p>
+          <p style="margin:0;color:var(--muted)">De l’installation de réseaux et d’équipements informatiques à la cybersécurité, une formation qui donne de solides bases techniques pour entrer dans les services informatiques.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="when">Septembre 2024 – juin 2025</div>
+        <div>
+          <h3>Bac général</h3>
+          <p class="where">Lycée Honoré Romane, Embrun</p>
+          <p style="margin:0;color:var(--muted)">Spécialités physique-chimie et mathématiques.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="when">Juin 2023</div>
+        <div>
+          <h3>Stage en librairie</h3>
+          <p class="where">L’Artefact, Gap</p>
+          <ul><li>Accueil des clients et vente</li><li>Gestion du stock et inventaire partiel</li></ul>
+        </div>
+      </div>
+      <div class="step">
+        <div class="when">Mars 2022</div>
+        <div>
+          <h3>Stage d’observation en assistance informatique</h3>
+          <p class="where">Conseil départemental, Gap</p>
+          <ul><li>Assistance au dépannage</li><li>Assistance à l’installation d’ordinateurs</li></ul>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="apropos" class="alt">
+<section id="competences" class="alt">
+  <div class="wrap">
+    <h2>Compétences</h2>
+    <p class="lead">Ce que j’ai appris en formation et en stage.</p>
+    <div class="skills">
+      <div class="grp"><h3>Réseaux</h3><p>TCP/IP, DHCP, DNS, VLAN, NAT, routage</p></div>
+      <div class="grp"><h3>Administration</h3><p>Active Directory, gestion des utilisateurs et des postes</p></div>
+      <div class="grp"><h3>Systèmes</h3><p>Windows, Windows Server, virtualisation</p></div>
+      <div class="grp"><h3>Outils</h3><p>Wireshark, VMware, Clonezilla, FileZilla, XAMPP</p></div>
+      <div class="grp"><h3>Programmation</h3><p>Java, Python, HTML/CSS</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="apropos">
   <div class="wrap two">
     <div>
       <h2 style="margin-bottom:20px">À propos</h2>
-      <p>Je suis étudiant en BTS SIO (Services Informatiques aux Organisations) et j’ai obtenu un bac général avec les spécialités mathématiques et physique-chimie.</p>
-      <p>Passionné d’informatique depuis plusieurs années, je développe mes compétences en programmation et en résolution de problèmes techniques.</p>
-      <p>Je cherche des occasions de mettre mes connaissances en pratique et de continuer à apprendre.</p>
+      <p>Je suis en deuxième année de BTS SIO option SISR (solutions d’infrastructure, systèmes et réseaux). J’ai obtenu un bac général avec les spécialités mathématiques et physique-chimie.</p>
+      <p>Au fil de ma formation et de mes stages, j’ai acquis des compétences en systèmes, réseaux et administration informatique, que je souhaite approfondir.</p>
+      <p>Je m’adapte vite aux nouvelles technologies et aux changements d’un environnement informatique, et j’ajuste mon travail aux besoins des projets et des équipes.</p>
     </div>
     <dl>
-      <dt>Âge</dt><dd>18 ans</dd>
+      <dt>Âge</dt><dd>19 ans</dd>
       <dt>Ville</dt><dd>Embrun (05200)</dd>
       <dt>Nationalité</dt><dd>Française</dd>
       <dt>Langues</dt><dd>Français, anglais (B2), espagnol (B1)</dd>
+      <dt>Intérêts</dt><dd>E-sport : compétiteur sur Super Smash Bros Ultimate, en ligne et en présentiel, jusqu’aux tournois nationaux</dd>
     </dl>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="alt">
   <div class="wrap two">
     <div>
       <h2 style="margin-bottom:20px">Me contacter</h2>
       <ul class="links">
+        <li>Disponibilité : stage de 5 à 6 semaines à partir du 4 janvier 2027</li>
         <li>Email : <a href="mailto:steevelink98@gmail.com">steevelink98@gmail.com</a></li>
         <li>Téléphone : <a href="tel:+33610738356">06 10 73 83 56</a></li>
         <li>Localisation : Embrun (05200)</li>
@@ -317,7 +362,7 @@ $("#heroSearch").addEventListener("submit", e => {
 
 /* Menu : section active + bouton retour en haut */
 const links = [...document.querySelectorAll("#nav a")];
-const targets = ["tp","veille","stage","parcours","apropos","contact"].map(id => document.getElementById(id));
+const targets = ["tp","veille","stage","parcours","competences","apropos","contact"].map(id => document.getElementById(id));
 const spy = new IntersectionObserver(entries => entries.forEach(en => {
   if(en.isIntersecting) links.forEach(a => a.classList.toggle("on", a.getAttribute("href")==="#"+en.target.id && !a.classList.contains("cta")));
 }), {rootMargin:"-40% 0px -55% 0px"});
